@@ -1,4 +1,6 @@
 # pogoda
 
 # Run serve
-++npm start
+ npm start
+ 
+
