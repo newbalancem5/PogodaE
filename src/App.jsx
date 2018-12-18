@@ -31,7 +31,7 @@ class WeatherDisplay extends Component {
   }
   render() {
     const weatherData = this.state.weatherData;
-    if (!weatherData) return <div>Загрузка</div>;
+    if (!weatherData) return <div>Загрузка....</div>;
     const weather = weatherData.weather[0];
     const iconUrl = "http://openweathermap.org/img/w/" + weather.icon + ".png";
     return (
