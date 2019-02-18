@@ -10,7 +10,8 @@ const PLACES = [
   { name: "Смоленск", zip: "214031" },
   { name: "Москва", zip: "140008" },
   { name: "Санкт-Петербург", zip: "198323" },
-  { name: "Десногорск", zip: "216400" }
+  { name: "Десногорск", zip: "216400" },
+  { name: "Казань", zip: "420001"}
 ];
 
 class WeatherDisplay extends Component {
